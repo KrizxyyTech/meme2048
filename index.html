@@ -2,11 +2,13 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>2048</title>
+  <title>Meme 2048</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -19,11 +21,28 @@
   <meta property="og:site_name" content="2048 game"/>
   <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!"/>
   <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+
+  <!-- Replace text w/ meme images. I'm lazy. Spoilers below! -->
+  <style>
+      .tile-inner { background-position: center center !important; background-size: cover !important; background-repeat: no-repeat !important; }
+      .tile.tile-2 .tile-inner { background-image: url('img/honey_badger.gif') !important; }
+      .tile.tile-4 .tile-inner { background-image: url('img/tron_guy.jpg') !important; }
+      .tile.tile-8 .tile-inner { background-image: url('img/peanut_butter_jelly_time.gif') !important; }
+      .tile.tile-16 .tile-inner { background-image: url('img/numa_numa.gif') !important; }
+      .tile.tile-32 .tile-inner { background-image: url('img/dramatic_chipmunk.gif') !important; }
+      .tile.tile-64 .tile-inner { background-image: url('img/star_wars_kid.gif') !important; }
+      .tile.tile-128 .tile-inner { background-image: url('img/advice_dog.jpg') !important; }
+      .tile.tile-256 .tile-inner { background-image: url('img/keyboard_cat.gif') !important; }
+      .tile.tile-512 .tile-inner { background-image: url('img/ceiling_cat.png') !important; }
+      .tile.tile-1024 .tile-inner { background-image: url('img/hello_my_future_girlfriend.jpg') !important; }
+      .tile.tile-2048 .tile-inner { background-image: url('img/dancing_baby.gif') !important; }
+    </style>
+
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048</h1>
+      <h1 class="title">Meme 2048</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -97,11 +116,7 @@
     </p>
     <hr>
     <p>
-    <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
-    </p>
-    <hr>
-    <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    Original version created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
     <div class="sharing">
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out 2048, a game where you join numbers to score high! #2048game" data-via="gabrielecirulli" data-url="http://git.io/2048" data-counturl="http://gabrielecirulli.github.io/2048/">Tweet</a>
