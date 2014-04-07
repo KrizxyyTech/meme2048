@@ -6,7 +6,7 @@ html, body {
   color: white;
   font-family: "Hobo Std", Impact, "Comic Sans MS";
   font-size: 18px;
-  background-image: url("/img/advice_dog_background.jpg");
+  background-image: url("../img/advice_dog_background.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
