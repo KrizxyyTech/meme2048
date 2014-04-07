@@ -9,15 +9,15 @@ $tile-border-radius: 3px;
 
 $mobile-threshold: $field-width + 20px;
 
-$text-color: #776E65;
-$bright-text-color: #f9f6f2;
+$text-color: #fff; // Unused
+$bright-text-color: #fff; // Unused
 
-$tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-color: #0f0;
+$tile-gold-color: #00f;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
-$game-container-background: #bbada0;
+$game-container-background: #00f;
 
 $transition-speed: 100ms;
 
@@ -25,10 +25,14 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: #faf8ef;
+  background-color: #00f;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
+  background-image: url('/img/advice_dog_background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -106,7 +110,7 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0;
-  }
+ }
 }
 
 .scores-container {
