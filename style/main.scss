@@ -12,12 +12,12 @@ $mobile-threshold: $field-width + 20px;
 $text-color: #fff; // Unused
 $bright-text-color: #fff; // Unused
 
-$tile-color: #0f0;
-$tile-gold-color: #00f;
+$tile-color: #d00;
+$tile-gold-color: #f00;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
-$game-container-background: #00f;
+$game-container-background: #000;
 
 $transition-speed: 100ms;
 
