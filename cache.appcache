@@ -23,12 +23,6 @@ style/fonts/ClearSans-Regular-webfont.eot
 style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
 
-# Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
-
 # JavaScript
 js/animframe_polyfill.js
 js/application.js
@@ -42,6 +36,25 @@ js/local_storage_manager.js
 js/tile.js
 
 favicon.ico
+
+# Images
+img/advice_dog.jpg
+img/ceiling_cat.png
+img/dancing_baby.gif
+img/dramatic_chipmunk.gif
+img/hello_my_future_girlfriend.jpg
+img/honey_badger.jpg
+img/keyboard_cat.gif
+img/numa_numa.gif
+img/peanut_butter_jelly_time.gif
+img/rickroll.gif
+img/star_wars_kid.gif
+img/tron_guy.jpg
+
+meta/apple-touch-icon.png
+meta/icon_bitcoin.svg
+meta/icon_pp.svg
+meta/og_image.png
 
 NETWORK:
 *
