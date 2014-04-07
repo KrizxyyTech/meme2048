@@ -27,9 +27,9 @@ html, body {
 
   background-color: #00f;
   color: $text-color;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Hobo Std", Impact, "Comic Sans MS";
   font-size: 18px;
-  background-image: url('/img/advice_dog_background.jpg');
+  background-image: url('img/advice_dog_background.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body {
 }
 
 h1.title {
-  font-size: 48px;
+  font-size: 54px;
   font-weight: bold;
   margin: 0 0 40px 0;
   display: block;
@@ -474,6 +474,10 @@ hr {
 
 .game-explanation {
   margin-top: 50px;
+}
+
+.browser-buttons {
+  text-align: center;
 }
 
 @include smaller($mobile-threshold) {
