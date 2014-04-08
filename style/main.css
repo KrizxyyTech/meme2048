@@ -479,10 +479,12 @@ hr {
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
 
-.above-game:after {
-  content: "";
-  display: block;
-  clear: both; }
+.above-game {
+  margin-top: 20px; }
+  .above-game:after {
+    content: "";
+    display: block;
+    clear: both; }
 
 .game-intro {
   float: left;
